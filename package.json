@@ -1,0 +1,20 @@
+{
+  "name": "moon-landing",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "npx tsc && node dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs-node": "^4.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  }
+}
